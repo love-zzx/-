@@ -1,0 +1,24 @@
+{
+    "name": "coolfeng2022/demo",
+    "description": "test composer packages",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CoolFeng\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CoolFeng\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "coolfeng2008",
+            "email": "coolfeng2008@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    }
+}
